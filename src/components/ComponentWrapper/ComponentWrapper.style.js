@@ -6,7 +6,9 @@ export const componentWrapper = (
   noPaddings,
   fullWidth
 ) => css`
+  box-sizing: border-box;
   max-width: ${fullWidth ? "100%" : "1440px"};
+  width: 100%;
   margin: 0 auto;
   margin-top: ${hasTopMargin ? "30px" : "0"};
   margin-bottom: ${hasBottomMargin ? "30px" : "0"};
