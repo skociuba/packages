@@ -12,6 +12,6 @@ export const componentWrapper = (
   margin: 0 auto;
   margin-top: ${hasTopMargin ? "30px" : "0"};
   margin-bottom: ${hasBottomMargin ? "30px" : "0"};
-  margin-bottom: ${noPaddings ? "" : "0 16px"};
+  padding: ${noPaddings ? "" : "0 16px"};
 `
 export default componentWrapper
