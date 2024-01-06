@@ -1,5 +1,7 @@
 
- <ComponentWrapper className={additional properties}>Children</ComponentWrapper>
+ <ComponentWrapper className={additional properties}>
+      Children
+ </ComponentWrapper>
 
 additional properties:
 
